@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Comment Section</title>
+    <style>
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 2em;
+    position: sticky;
+}
+.navbar ul li {
+    margin-right: 1em;
+}
+.navbar ul li  {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em;
+}
+.navbar ul li a:hover {
+    background-color: #palevioletred;
+    border-radius: 5px;
+
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Align everything vertically */
+            align-items: center; /* Align everything horizontally */
+        }
+
+        .container {
+            background-color: #ADD8E6; /* Set the background color of the box to light blue */
+            max-width: 80%; /* Limit the width to 80% of the viewport */
+            border: 15px solid #000080; /* Set the border color to navy */
+            padding: 50px;
+            text-align: justify; /* Align text inside the box to justify */
+            color: #00008B; /* Set text color to dark blue */
+            font-size: 18px; /* Increase font size slightly */
+        }
+
+        form {
+            width: 100%;
+            max-width: 400px;
+            text-align: center; /* Center the form */
+        }
+
+        form p {
+            margin: 0;
+            text-align: center;
+        }
+
+        textarea {
+            width: 100%; /* Make textarea fill the width of its container */
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+         <li><a href="#index.html">My Profile</a></li>
+         <li><a href="#mainpage.html">Main Page</a></li>
+          <li><a href="#1stQUARTER.html">First Quarter</a></li>
+           <li><a href="#2ndQTR.html">Second Quarter</a></li>
+           <li><a href="#3rdQuarter.html">Third Quarter</a></li>
+           <li><a href="#Commentsection.html">Comment section</a></li>
+         </ul> 
+          </div>
+        </nav>
+    </header> 
+
+<br>
+
+<div class="container">
+    ICT NEXT YEAR, would be alot harder many more codes to come and needing to be accomplished thus i hope for the best for myself.
+</div>
+
+<form action="/action_page.php">
+    <p><label for="w3review">Comment Section:</label></p>
+    <textarea id="w3review" name="w3review" rows="4" cols="50">Here you can comment!</textarea>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
